@@ -47,6 +47,9 @@ Python은 대략 **1초에 1,000만~2,000만 번 연산**으로 잡는다.
 | 선후 관계, 작업 순서 | 위상 정렬 | [07](07-union-find-mst/) |
 | 연속 부분 배열의 합, 구간 합 질의 | 누적합 | [08](08-two-pointer-prefix-sum/) |
 | 두 수의 합, 조건을 만족하는 연속 구간 길이 | 투 포인터, 슬라이딩 윈도우 | [08](08-two-pointer-prefix-sum/) |
+| 괄호 짝, 가장 최근 것과 비교, 넣은 역순으로 꺼내기 | 스택 | [09](09-stack-queue/) |
+| "오른쪽/왼쪽에서 처음 나오는 더 큰(작은) 값" | 단조 스택 | [09](09-stack-queue/) |
+| 먼저 온 순서대로 처리, 줄 서기, 카드 돌리기 | 큐 (deque) | [09](09-stack-queue/) |
 
 ---
 
@@ -60,6 +63,7 @@ Python은 대략 **1초에 1,000만~2,000만 번 연산**으로 잡는다.
 - [06. 최단 경로](06-shortest-path/)
 - [07. 유니온 파인드 · MST · 위상 정렬](07-union-find-mst/)
 - [08. 투 포인터 · 누적합](08-two-pointer-prefix-sum/)
+- [09. 스택 · 큐](09-stack-queue/)
 - [오답 · 실수 로그](mistakes.md)
 - [Python 문법 치트시트](syntax-cheatsheet.md)
 
