@@ -35,3 +35,4 @@
 |---|---|---|---|---|
 | [음료수 얼려 먹기](problems/freezing-drinks.md) ❌ | 이코테 Ch5 | 붙어 있는 0의 덩어리 수 → 연결 요소 → DFS | 입력 쪼개기·범위 조건 수정 (책 풀이 방식) | 2026-11-05 |
 | [미로 탈출](problems/maze-escape.md) | 이코테 Ch5 | 최소 칸 수 + 이동 비용 같음 → BFS | 정답 (책 풀이 방식) | 2026-11-05 |
+| [연결 요소의 개수 구하기](problems/connected-components.md) ❌ | Do it! / 백준 11724 | 이어진 묶음 수 → 안 간 노드에서 DFS 시작 횟수, 인접 리스트 | 논리 정답, `sys.setrecursionlimit` 추가 (책 풀이 방식) | 2026-11-27 |

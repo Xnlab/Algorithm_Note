@@ -21,6 +21,7 @@
 | 2026-11-23 | [내림차순으로 자릿수 정렬하기](04-sort-binary-search/problems/sort-inside.md) (백준 1427) | 조건 누락 (출력 형식) | 수 하나로 출력해야 하는데 자릿수를 `print`로 한 줄씩 출력 | 마지막에 출력 형식 다시 확인, 이어 출력은 `''.join` |
 | 2026-11-25 | [K번째 수 구하기](04-sort-binary-search/problems/kth-number.md) (백준 11004) | 구현 실수 | 재귀 조건 `s > e` (반대), 분할의 i 한계를 구간 끝 `e`가 아니라 배열 끝 `len(a)-1`로 잡음 | 재귀 계속 조건은 `s < e`, 포인터 한계는 항상 현재 구간 [s, e], 3개짜리 작은 입력 전수 확인 |
 | 2026-11-26 | [수 정렬하기 3](04-sort-binary-search/problems/sort-numbers-3.md) (백준 10989) | 구현 실수 | 배열을 `a`로 만들고 `count`로 사용 → `NameError` | 이름을 바꾸면 쓰인 곳을 모두 바꾸기, 제출 전 예제 실행 |
+| 2026-11-27 | [연결 요소의 개수 구하기](02-bfs-dfs/problems/connected-components.md) (백준 11724) | 시간·자원 초과 | 재귀 DFS인데 재귀 한도를 안 늘림 → 노드 1,000개 일렬에서 `RecursionError` | 재귀 DFS는 맨 위에 `sys.setrecursionlimit(10**6)` 습관처럼 |
 |  |  |  |  |  |
 
 ## 반복해서 나오는 실수 (3번 이상이면 여기로 올린다)
